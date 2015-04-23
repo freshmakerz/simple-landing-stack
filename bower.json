@@ -1,0 +1,27 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "authors": [
+    "freshmakerz <besnardthomas.job@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "modernizr": "~2.8.1",
+    "jquery-1.11.2.min": "http://code.jquery.com/jquery-1.11.2.min.js",
+    "jquery-migrate-1.2.1.min": "http://code.jquery.com/jquery-migrate-1.2.1.min.js",
+    "iCheck": "https://github.com/fronteed/iCheck.git#~1.0.2",
+    "bxslider-4": "https://github.com/stevenwanderski/bxslider-4.git#~4.2.3",
+    "jquery-placeholder": "https://github.com/mathiasbynens/jquery-placeholder.git#~2.1.1",
+    "purl": "https://github.com/allmarkedup/purl.git#~2.3.1",
+    "jquery.cookie": "git@github.com:carhartl/jquery-cookie.git#~1.4.1",
+    "font-awesome": "~4.3.0"
+  }
+}

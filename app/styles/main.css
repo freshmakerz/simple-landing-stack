@@ -1,0 +1,313 @@
+/*--- COLORS ---*/
+
+/*
+@green #1f6f07
+@greenOpacity rgba(82, 135, 64, 0.45)
+@orange #ec6839
+@bg #eceae0
+@gold #c09b57
+@text #747371
+*/
+
+/*--- GLOBAL ---*/
+* {margin: 0; }
+html, body {height: 100%; font-family: "Roboto", Helvetica, sans-serif; font-weight: 400; color:#747371;}
+input[type=text]{
+    background-color:#eceae0;
+    border: none;
+    font-style: italic;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 1px 1px 0px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 1px 1px 0px 0px rgba(0,0,0,0.1);
+    box-shadow: inset 1px 1px 0px 0px rgba(0,0,0,0.1);
+}
+
+/*--- BROWSER HAPPY ---*/
+.browsehappy{background-color: #272668; color:#fff; padding: 3px 0; }
+
+/*--- LAYOUT ---*/
+.wrapper {min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -145px; }
+.container{max-width: 960px;}
+.content-wrapper{background-color:#eceae0;}
+.content-boxed{padding:15px;}
+.no-pad-lft{padding-left:0;}
+.no-pad-rgt{padding-right:0;}
+.no-pad-top{padding-top:0;}
+.no-pad-bot{padding-bottom:0;}
+.no-marg-bot{margin-bottom:0;}
+
+/*--- TEL LINK ---*/
+a[href^=tel]{color:#fff!important;text-decoration:none;}
+
+/*--- WELL ---*/
+.well{border-radius:0;box-shadow:none;border:none;padding: 15px;}
+.well-green{background-color:#1f6f07;}
+.well-orange{background-color:#ec6839;line-height: 46px!important;}
+.well-white{background-color:#fff;}
+.well-green, .well-orange{color:#fff;font-weight:700;font-size:30px;text-align:center;text-transform:uppercase;line-height: 30px;height:120px;}
+.well-green font{font-weight:400;}
+.well-green big{font-size:40px;line-height: 40px;}
+.well-green .center{position: relative;top: 50%;margin-top: -51px;}
+
+.well-contact{padding: 5px 15px;line-height: 23px;height:auto;color:#1f6f07!important;text-align: center;}
+.well-contact div:first-child{font-size:26px;font-weight:700; margin-top: 5px;}
+.well-contact div:last-child{font-size: 14px; line-height: 18px; margin: 3px 0 2px 0;}
+
+.well-url{font-weight:700;text-align:center;font-size: 16px;height: 60px;line-height: 23px;height: 100%;}
+.well-url a{color:#fff;text-transform:initial;font-size:20px;font-weight:400;}
+.well-url a.tel{font-size:24px;font-weight:700;}
+
+.well-list h2{text-transform:uppercase;color:#1f6f07;text-align: center;font-weight:300;margin: 0;letter-spacing: 0.8px;font-size: 18px;}
+.well-list h2 strong{font-weight:400;}
+.well-list h3{color:#1f6f07;text-transform:uppercase;text-align: center;font-weight:700;margin: 0;}
+.well-list ul{list-style: none;padding: 0 15px 0 0;margin-top: 15px;margin-bottom:0;}
+.well-list li{background-image: url(../images/check.png);background-repeat: no-repeat;padding-left:30px; background-position: 0px 3px; margin-bottom: 5px;}
+.well-list li:last-child{margin-bottom:0;}
+
+/*--- BUTTONS ---*/
+.btn-green{background-color: #1F6F07;text-transform:uppercase;font-size:20px;font-weight:700;border:none;width:220px;margin: auto;border-radius:0;margin-top: 10px;
+    -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+    
+}
+.btn-green:hover, .btn-green:focus{background-color:#1F6F07;
+filter: alpha(opacity=70);
+        opacity: 0.7;
+
+        -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -ms-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+.btn-green i{position: relative;top: 1px;margin-right: 5px;font-size: 24px;}
+.btn.disabled{background-color: #afca21!important;}
+.modal .btn{width:auto;font-size:16px;}
+
+/*--- HEADER ---*/
+#header .content-boxed{padding:0 15px;}
+#header .header-wrapper{position: relative;}
+#header .header-content{position:absolute; width:100%;z-index: 100; height: 105px;background-color:rgba(82, 135, 64, 0.45);}
+#header .logo-promoteur {float:right; display: block;position: relative;left: 1px;}
+#header h1{font-weight:700;color:#fff;font-size:40px;margin-bottom:0;text-align:center;margin-top: 13px;}
+#header .subtitle{color:#fff;font-size:24px;font-weight:400;text-align:center;}
+
+/*--- FORM ---*/
+form h3{font-size:38px;font-weight:700;text-transform:uppercase;color:#1f6f07;text-align:center;margin: 0;}
+form .punchline{font-size: 18px;text-align:center;text-transform:uppercase;font-weight:700;}
+form fieldset{margin: 15px 15px 5px 15px;}
+label{color:#747371;font-weight:700!important;}
+label.blue{color:#747371;text-transform:uppercase;margin-bottom: 15px;}
+span.required{color:#cd1822;}
+form p{text-align: center;font-size: 12px;margin-bottom: 0;}
+
+/*--- FOOTER ---*/
+#footer .footer-wrapper{background-color: #eceae0;}
+#footer p{font-size:10px;}
+#footer p:last-child{margin-bottom:0;}
+
+/*--- ICHECK ---*/
+.icheck:first-child{padding-left: 0!important; }
+.icheckbox_square{margin-right:10px;}
+
+/*--- BXSLIDER ---*/
+.bxslider{list-style:none;}
+.bx-wrapper{margin: 0 auto -50px;border:none;height:443px;}
+.bx-wrapper .bx-viewport{left: auto;border:none;box-shadow:none;}
+
+/*--- TABLE ---*/
+table{margin-bottom:0!important;}
+table th{background-color:#ec6839;text-align:center;text-transform:uppercase;color:#fff;vertical-align:middle!important;}
+table th font{font-weight:normal;text-transform:initial;}
+table .ast{font-size: 10px;position: relative;top: -3px;font-weight: 400;}
+table td{background-color:#c09b57;color:#fff;text-align:center;font-weight:700;font-size: 16px;}
+
+/*--- ERRORS ---*/
+.error{font-size: 12px; color: #a94442; font-style: italic;display: none; }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    body{
+        background: green;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    body{
+        background-color:orange;
+    }
+    .bx-wrapper{
+        height:auto!important;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    body{
+        background: yellow;
+    }
+    #header h1{
+        font-size: 26px!important;
+    }
+    #header .date{
+        font-size: 22px;
+    }
+    #header .logo-programme{
+        height:auto!important;
+        width:150px!important;
+        margin:auto;
+        position:initial;
+    }
+    #header .logo-promoteur{
+        margin: 21px auto;
+    }
+    .no-pad-lft{
+        padding-left:15px;
+    }
+    .no-pad-rgt{
+        padding-right:15px;
+    }
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    #header{
+        height:auto;
+    }
+    #header h1{
+        font-size: 26px;
+    }
+    #header .date{
+        font-size: 22px;
+    }
+    #header .logo-programme{
+        height:auto!important;
+        width:100px!important;
+        margin:auto;
+        position:initial;
+    }
+    #header .logo-promoteur{
+        margin: 21px auto;
+    }
+    #content .divider{
+        height: 7px;
+    }
+    #content .bx-wrapper{
+        margin: 0 auto;
+    }
+    #content .well-red{
+        margin-top:-1px;
+    }
+    #content .well-red,
+    #content .well-green{
+        margin-bottom:0;
+    }
+    #content .well-list h2{font-size: 26px;}
+    #content .well-list h3{font-size: 20px;}
+    #content .well-list ul{
+        padding-left:15px;
+    }
+    #content .well-list ul li{
+        font-size: 12px;
+    }
+    table th, table td{
+        vertical-align:middle!important;
+        font-size:14px;
+        font-size: 13px;
+    }
+    form h3{
+        font-size: 28px;
+    }
+    form .punchline{
+        font-size: 13px;
+    }
+    .no-pad-lft{
+        padding-left:15px;
+    }
+    .no-pad-rgt{
+        padding-right:15px;
+    }
+    .well-url{
+        font-size:14px;
+    }
+    #content .content-boxed{
+        padding:0;
+    }
+    .patchs{
+        display:none;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    #header{
+        height:auto;
+    }
+    #header h1{
+        font-size: 26px;
+    }
+    #header .date{
+        font-size: 22px;
+    }
+    #header .logo-programme{
+        height:auto!important;
+        width:100px!important;
+        margin:auto;
+        position:initial;
+    }
+    #header .logo-promoteur{
+        margin: 21px auto;
+    }
+    #content .divider{
+        height: 7px;
+    }
+    #content .bx-wrapper{
+        margin: 0 auto;
+    }
+    #content .well-red{
+        margin-top:-1px;
+    }
+    #content .well-red,
+    #content .well-green{
+        margin-bottom:0;
+    }
+    #content .well-list h2{font-size: 26px;}
+    #content .well-list h3{font-size: 20px;}
+    #content .well-list ul{
+        padding-left:15px;
+    }
+    #content .well-list ul li{
+        font-size: 12px;
+    }
+    table th, table td{
+        vertical-align:middle!important;
+        font-size:14px;
+        font-size: 13px;
+    }
+    form h3{
+        font-size: 28px;
+    }
+    form .punchline{
+        font-size: 13px;
+    }
+    .no-pad-lft{
+        padding-left:15px;
+    }
+    .no-pad-rgt{
+        padding-right:15px;
+    }
+    .well-url{
+        font-size:14px;
+    }
+    #content .content-boxed{
+        padding:0;
+    }
+    .patchs{
+        display:none;
+    }
+}
